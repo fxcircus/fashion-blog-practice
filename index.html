@@ -9,28 +9,36 @@
 </head>
 <body>
     <header>
-        <div class="title-1">Sarte's List</div>
-        <div class="sub-title">Better-Dressed People</div>
-        <nav class="nav-bar">
-            <a>Women's</a>
-            <a>Men's</a>
-            <a>On the Street</a>
-            <a>The Catwalk</a>
-            <a>AdWatch</a>
-            <a>About</a>
+        <h1 class="title-1">Sarte's List</h1>
+        <h2 class="sub-title">Better-Dressed People</h2>
+        <nav class="nav-bar" aria-label="Main Navigation" role="navigation">
+            <ul>
+                <li><a>Women's</a></li>
+                <li><a>Men's</a></li>
+                <li><a>On the Street</a></li>
+                <li><a>The Catwalk</a></li>
+                <li><a>AdWatch</a></li>
+                <li><a>About</a></li>
+            </ul>
         </nav>
     </header>
-   <div class="articles">
-        <article>
-            <div class="timestamp">11/12/20</div>
-            <div class="title-2">On the Streen in Brooklyn</div>
-            <img src="./public/Photos/blog-image-1.jpeg" alt="woman-walking" />
-            <div>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id laudantium consequuntur libero facilis. Et quisquam debitis cupiditate. Repellendus molestiae quasi odio accusamus, debitis eius repellat quam, voluptate tempora saepe corrupti.
-            </div>
-            <div class="cont-btn">Continues...</div>
-            <hr>
-        </article>
+   <main>
+        <section>
+            <article>
+                <time class="timestamp">11/12/20</time>
+                <h2 class="title-2">On the Streen in Brooklyn</h2>
+                <img src="./public/Photos/blog-image-1.jpeg" alt="woman-walking" />
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus perferendis suscipit reprehenderit nulla sit consequuntur tenetur harum, alias distinctio a cum, vero sed numquam blanditiis pariatur praesentium asperiores quo nesciunt.</p>
+                <aside>
+                    <ul>
+                        <li>
+                            <a>Continues...</a>
+                        </li>
+                    </ul>
+                </aside>
+                <hr>
+            </article>
+        </section>
         
         <article>
             <div class="timestamp">11/12/20</div>
@@ -41,18 +49,20 @@
             </div>
             <div class="cont-btn">Continues...</div>
         </article>
-   </div>
+   </main>
    <footer>
        <hr>
-        <nav class="nav-bar">
-            <a>Women's</a>
-            <a>Men's</a>
-            <a>On the Street</a>
-            <a>The Catwalk</a>
-            <a>AdWatch</a>
-            <a>About</a>
+        <nav class="nav-bar" aria-label="Main Navigation" role="navigation">
+            <ul>
+                <li><a>Women's</a></li>
+                <li><a>Men's</a></li>
+                <li><a>On the Street</a></li>
+                <li><a>The Catwalk</a></li>
+                <li><a>AdWatch</a></li>
+                <li><a>About</a></li>
+            </ul>
         </nav>
-        <div class="credit">© 2013 Valet Industries, Inc</div>
+        <div class="credit">&copy 2013 Valet Industries, Inc</div>
    </footer>
 
 </body>
