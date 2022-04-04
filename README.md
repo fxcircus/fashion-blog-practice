@@ -12,3 +12,4 @@
 - HTML
 - CSS
 - React
+- Flexbox
